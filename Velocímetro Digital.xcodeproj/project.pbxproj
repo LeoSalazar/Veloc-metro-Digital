@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A78E1B791C9E59B500A04807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E1B781C9E59B500A04807 /* AppDelegate.swift */; };
+		A78E1B7B1C9E59B500A04807 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E1B7A1C9E59B500A04807 /* RootViewController.swift */; };
+		A78E1B7D1C9E59B500A04807 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E1B7C1C9E59B500A04807 /* DataViewController.swift */; };
+		A78E1B7F1C9E59B500A04807 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E1B7E1C9E59B500A04807 /* ModelController.swift */; };
+		A78E1B821C9E59B500A04807 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A78E1B801C9E59B500A04807 /* Main.storyboard */; };
+		A78E1B841C9E59B500A04807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A78E1B831C9E59B500A04807 /* Assets.xcassets */; };
+		A78E1B871C9E59B500A04807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A78E1B851C9E59B500A04807 /* LaunchScreen.storyboard */; };
+		A78E1B921C9E59B500A04807 /* Veloci_metro_DigitalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E1B911C9E59B500A04807 /* Veloci_metro_DigitalTests.swift */; };
+		A78E1B9D1C9E59B500A04807 /* Veloci_metro_DigitalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78E1B9C1C9E59B500A04807 /* Veloci_metro_DigitalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A78E1B8E1C9E59B500A04807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A78E1B6D1C9E59B500A04807 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A78E1B741C9E59B500A04807;
+			remoteInfo = "Velocímetro Digital";
+		};
+		A78E1B991C9E59B500A04807 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A78E1B6D1C9E59B500A04807 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A78E1B741C9E59B500A04807;
+			remoteInfo = "Velocímetro Digital";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A78E1B751C9E59B500A04807 /* Velocímetro Digital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Velocímetro Digital.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78E1B781C9E59B500A04807 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A78E1B7A1C9E59B500A04807 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		A78E1B7C1C9E59B500A04807 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		A78E1B7E1C9E59B500A04807 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		A78E1B811C9E59B500A04807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A78E1B831C9E59B500A04807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A78E1B861C9E59B500A04807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A78E1B881C9E59B500A04807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A78E1B8D1C9E59B500A04807 /* Velocímetro DigitalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Velocímetro DigitalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78E1B911C9E59B500A04807 /* Veloci_metro_DigitalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veloci_metro_DigitalTests.swift; sourceTree = "<group>"; };
+		A78E1B931C9E59B500A04807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A78E1B981C9E59B500A04807 /* Velocímetro DigitalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Velocímetro DigitalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78E1B9C1C9E59B500A04807 /* Veloci_metro_DigitalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Veloci_metro_DigitalUITests.swift; sourceTree = "<group>"; };
+		A78E1B9E1C9E59B500A04807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A78E1B721C9E59B500A04807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78E1B8A1C9E59B500A04807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78E1B951C9E59B500A04807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A78E1B6C1C9E59B500A04807 = {
+			isa = PBXGroup;
+			children = (
+				A78E1B771C9E59B500A04807 /* Velocímetro Digital */,
+				A78E1B901C9E59B500A04807 /* Velocímetro DigitalTests */,
+				A78E1B9B1C9E59B500A04807 /* Velocímetro DigitalUITests */,
+				A78E1B761C9E59B500A04807 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A78E1B761C9E59B500A04807 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A78E1B751C9E59B500A04807 /* Velocímetro Digital.app */,
+				A78E1B8D1C9E59B500A04807 /* Velocímetro DigitalTests.xctest */,
+				A78E1B981C9E59B500A04807 /* Velocímetro DigitalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A78E1B771C9E59B500A04807 /* Velocímetro Digital */ = {
+			isa = PBXGroup;
+			children = (
+				A78E1B781C9E59B500A04807 /* AppDelegate.swift */,
+				A78E1B7A1C9E59B500A04807 /* RootViewController.swift */,
+				A78E1B7C1C9E59B500A04807 /* DataViewController.swift */,
+				A78E1B7E1C9E59B500A04807 /* ModelController.swift */,
+				A78E1B801C9E59B500A04807 /* Main.storyboard */,
+				A78E1B831C9E59B500A04807 /* Assets.xcassets */,
+				A78E1B851C9E59B500A04807 /* LaunchScreen.storyboard */,
+				A78E1B881C9E59B500A04807 /* Info.plist */,
+			);
+			path = "Velocímetro Digital";
+			sourceTree = "<group>";
+		};
+		A78E1B901C9E59B500A04807 /* Velocímetro DigitalTests */ = {
+			isa = PBXGroup;
+			children = (
+				A78E1B911C9E59B500A04807 /* Veloci_metro_DigitalTests.swift */,
+				A78E1B931C9E59B500A04807 /* Info.plist */,
+			);
+			path = "Velocímetro DigitalTests";
+			sourceTree = "<group>";
+		};
+		A78E1B9B1C9E59B500A04807 /* Velocímetro DigitalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A78E1B9C1C9E59B500A04807 /* Veloci_metro_DigitalUITests.swift */,
+				A78E1B9E1C9E59B500A04807 /* Info.plist */,
+			);
+			path = "Velocímetro DigitalUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A78E1B741C9E59B500A04807 /* Velocímetro Digital */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A78E1BA11C9E59B500A04807 /* Build configuration list for PBXNativeTarget "Velocímetro Digital" */;
+			buildPhases = (
+				A78E1B711C9E59B500A04807 /* Sources */,
+				A78E1B721C9E59B500A04807 /* Frameworks */,
+				A78E1B731C9E59B500A04807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Velocímetro Digital";
+			productName = "Velocímetro Digital";
+			productReference = A78E1B751C9E59B500A04807 /* Velocímetro Digital.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A78E1B8C1C9E59B500A04807 /* Velocímetro DigitalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A78E1BA41C9E59B500A04807 /* Build configuration list for PBXNativeTarget "Velocímetro DigitalTests" */;
+			buildPhases = (
+				A78E1B891C9E59B500A04807 /* Sources */,
+				A78E1B8A1C9E59B500A04807 /* Frameworks */,
+				A78E1B8B1C9E59B500A04807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A78E1B8F1C9E59B500A04807 /* PBXTargetDependency */,
+			);
+			name = "Velocímetro DigitalTests";
+			productName = "Velocímetro DigitalTests";
+			productReference = A78E1B8D1C9E59B500A04807 /* Velocímetro DigitalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A78E1B971C9E59B500A04807 /* Velocímetro DigitalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A78E1BA71C9E59B500A04807 /* Build configuration list for PBXNativeTarget "Velocímetro DigitalUITests" */;
+			buildPhases = (
+				A78E1B941C9E59B500A04807 /* Sources */,
+				A78E1B951C9E59B500A04807 /* Frameworks */,
+				A78E1B961C9E59B500A04807 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A78E1B9A1C9E59B500A04807 /* PBXTargetDependency */,
+			);
+			name = "Velocímetro DigitalUITests";
+			productName = "Velocímetro DigitalUITests";
+			productReference = A78E1B981C9E59B500A04807 /* Velocímetro DigitalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A78E1B6D1C9E59B500A04807 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Leonardo Salazar Flores";
+				TargetAttributes = {
+					A78E1B741C9E59B500A04807 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 8246YM7KLY;
+					};
+					A78E1B8C1C9E59B500A04807 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 8246YM7KLY;
+						TestTargetID = A78E1B741C9E59B500A04807;
+					};
+					A78E1B971C9E59B500A04807 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 8246YM7KLY;
+						TestTargetID = A78E1B741C9E59B500A04807;
+					};
+				};
+			};
+			buildConfigurationList = A78E1B701C9E59B500A04807 /* Build configuration list for PBXProject "Velocímetro Digital" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A78E1B6C1C9E59B500A04807;
+			productRefGroup = A78E1B761C9E59B500A04807 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A78E1B741C9E59B500A04807 /* Velocímetro Digital */,
+				A78E1B8C1C9E59B500A04807 /* Velocímetro DigitalTests */,
+				A78E1B971C9E59B500A04807 /* Velocímetro DigitalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A78E1B731C9E59B500A04807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78E1B871C9E59B500A04807 /* LaunchScreen.storyboard in Resources */,
+				A78E1B841C9E59B500A04807 /* Assets.xcassets in Resources */,
+				A78E1B821C9E59B500A04807 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78E1B8B1C9E59B500A04807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78E1B961C9E59B500A04807 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A78E1B711C9E59B500A04807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78E1B7B1C9E59B500A04807 /* RootViewController.swift in Sources */,
+				A78E1B7F1C9E59B500A04807 /* ModelController.swift in Sources */,
+				A78E1B7D1C9E59B500A04807 /* DataViewController.swift in Sources */,
+				A78E1B791C9E59B500A04807 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78E1B891C9E59B500A04807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78E1B921C9E59B500A04807 /* Veloci_metro_DigitalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78E1B941C9E59B500A04807 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78E1B9D1C9E59B500A04807 /* Veloci_metro_DigitalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A78E1B8F1C9E59B500A04807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A78E1B741C9E59B500A04807 /* Velocímetro Digital */;
+			targetProxy = A78E1B8E1C9E59B500A04807 /* PBXContainerItemProxy */;
+		};
+		A78E1B9A1C9E59B500A04807 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A78E1B741C9E59B500A04807 /* Velocímetro Digital */;
+			targetProxy = A78E1B991C9E59B500A04807 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A78E1B801C9E59B500A04807 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A78E1B811C9E59B500A04807 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A78E1B851C9E59B500A04807 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A78E1B861C9E59B500A04807 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A78E1B9F1C9E59B500A04807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A78E1BA01C9E59B500A04807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A78E1BA21C9E59B500A04807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Velocímetro Digital/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.LeoSalazar.Veloci-metro-Digital";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A78E1BA31C9E59B500A04807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Velocímetro Digital/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.LeoSalazar.Veloci-metro-Digital";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A78E1BA51C9E59B500A04807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Velocímetro DigitalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.LeoSalazar.Veloci-metro-DigitalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Velocímetro Digital.app/Velocímetro Digital";
+			};
+			name = Debug;
+		};
+		A78E1BA61C9E59B500A04807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Velocímetro DigitalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.LeoSalazar.Veloci-metro-DigitalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Velocímetro Digital.app/Velocímetro Digital";
+			};
+			name = Release;
+		};
+		A78E1BA81C9E59B500A04807 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Velocímetro DigitalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.LeoSalazar.Veloci-metro-DigitalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Velocímetro Digital";
+			};
+			name = Debug;
+		};
+		A78E1BA91C9E59B500A04807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Velocímetro DigitalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.LeoSalazar.Veloci-metro-DigitalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Velocímetro Digital";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A78E1B701C9E59B500A04807 /* Build configuration list for PBXProject "Velocímetro Digital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78E1B9F1C9E59B500A04807 /* Debug */,
+				A78E1BA01C9E59B500A04807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A78E1BA11C9E59B500A04807 /* Build configuration list for PBXNativeTarget "Velocímetro Digital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78E1BA21C9E59B500A04807 /* Debug */,
+				A78E1BA31C9E59B500A04807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A78E1BA41C9E59B500A04807 /* Build configuration list for PBXNativeTarget "Velocímetro DigitalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78E1BA51C9E59B500A04807 /* Debug */,
+				A78E1BA61C9E59B500A04807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A78E1BA71C9E59B500A04807 /* Build configuration list for PBXNativeTarget "Velocímetro DigitalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78E1BA81C9E59B500A04807 /* Debug */,
+				A78E1BA91C9E59B500A04807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A78E1B6D1C9E59B500A04807 /* Project object */;
+}
